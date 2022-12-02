@@ -1,0 +1,6 @@
+<div *ngFor="let comment of comments; let i = index">
+    <div class="comment" [ngClass]="{'lightblue-background': i % 2 === 1}">
+        <div class="body">{{comment?.body}}</div>
+        <div class="name">{{comment?.name}}</div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+@import "../../../../variables";
+
+.search-bar{
+    font-size: 16px;
+    padding: 10px;
+    span, input{
+        display: inline-block;
+    }
+    input {
+        margin-left: 20px;
+        width: 250px;
+        height: 20px;
+    }
+}
+.post-content{
+    cursor: pointer;
+    h4{
+        background: $lightBlueColor;
+        padding: 10px;
+    }
+    div {
+        padding: 10px;
+    }
+    margin: 15px 5px;
+    border: solid 1px $lightBlueColor;
+    padding: 10px;
+}
+.user{
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .search-bar{
+        span, input{
+            display: block;
+        }
+        input {
+            margin-left: 0;
+            margin-top: 10px;
+        }
+    }
+}
