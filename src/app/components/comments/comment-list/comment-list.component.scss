@@ -1,0 +1,15 @@
+@import '../../../../variables';
+
+.comment{
+    border: solid 1px $lightBlueColor;
+    margin: 0;
+    padding: 10px;
+    .name{
+        margin-top: 10px;
+        font-style: italic;
+        font-size: 12px;
+    }
+}
+.lightblue-background{
+    background-color: $lightBlueColor;
+}

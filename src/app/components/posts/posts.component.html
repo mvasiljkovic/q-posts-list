@@ -1,0 +1,6 @@
+<h3 class="title">Posts:</h3>
+<div class="search-bar"><span>Search posts: </span><input (input)="filterPosts($event)" /></div>
+<pl-post-list 
+    [posts]="posts" 
+    (postClicked$)="onPostClicked($event)"
+></pl-post-list>
